@@ -1,8 +1,9 @@
-# React + Vite
+# React + SpringBoot + MySql
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CRUD con sus métodos básicos(Create, Read, Update y Delete)
 
-Currently, two official plugins are available:
+Frontend creado con React y haciendo llamadas con Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend hecho con una REST API en Java
+
+Comunicado con una base de datos realcional en MySql
