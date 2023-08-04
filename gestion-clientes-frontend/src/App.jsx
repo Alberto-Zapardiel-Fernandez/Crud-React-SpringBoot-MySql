@@ -3,6 +3,7 @@ import ListClientesComponent from './components/ListClientesComponent.jsx'
 import HeaderComponent from './components/HeaderComponent.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AddClienteComponent from './components/AddClienteComponent'
+import React from 'react'
 
 function App() {
   return (
@@ -12,7 +13,6 @@ function App() {
         <div className='container'>
           <Routes>
             <Route
-              exact
               path='/'
               element={<ListClientesComponent />}
             ></Route>
